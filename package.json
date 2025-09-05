@@ -1,0 +1,22 @@
+{
+  "name": "json-unit-test",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kokolito/json-unit-test.git"
+  },
+  "description": "Check if the tested function get a json, return a json, has no references shared between the input and the output, and also check if the calculated json is equal to the expected json.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "json",
+    "unit-test",
+    "test",
+    "equality",
+    "isolation"
+  ],
+  "author": "Kolia Cadonici",
+  "license": "ISC"
+}
